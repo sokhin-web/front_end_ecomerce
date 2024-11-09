@@ -9,7 +9,7 @@ import {
 function Footer() {
   return (
     <div className="bg-gradient-to-b from-[#675D50] to-[#CADABF] w-full h-[250px] mt-[300px]  rounded-t-full phone:rounded-t-xl phone:mt-0 tablet:rounded-t-xl ">
-      <div className="flex flex-row justify-center items-center gap-[200px]  px-10 py-5 phone:px-1   phone:gap-5 phone:justify-evenly">
+      <div className="flex flex-row justify-center items-start gap-[200px]  px-10 py-5 phone:px-1   phone:gap-5 phone:justify-evenly">
         <div className="flex flex-col gap-3 mt-[50px]">
           <h1 className="text-xl font-bold">Follow Us</h1>
           <div>
