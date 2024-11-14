@@ -1,6 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Select } from "antd";
 import Search from "antd/es/transfer/search";
 import Link from "antd/es/typography/Link";
+
 import {
   RiCarFill,
   RiFacebookBoxFill,
@@ -12,9 +14,42 @@ import {
   RiYoutubeFill,
 } from "react-icons/ri";
 
+import { useState, useEffect } from "react";
+
 function Navbar() {
+  const [isVisible, setIsVisible] = useState(true); // State to control navbar visibility
+  const [lastScrollY, setLastScrollY] = useState(0); // State to track the last scroll position
+
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY > lastScrollY) {
+        // If scrolling down, hide navbar
+        setIsVisible(false);
+      } else {
+        // If scrolling up, show navbar
+        setIsVisible(true);
+      }
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      // Cleanup function to remove event listener on component unmount
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
+
   return (
-    <div className="fixed top-0 z-50 w-full h-fit shadow-sm shadow-[#675D50]">
+    <div
+      className={`fixed top-0 w-full transition-transform duration-500 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      } bg-[#675D50] shadow-sm z-50  `}
+    >
       <div className="bg-[#675D50] text-[#E7E8D8] h-fit flex flex-row justify-between px-[20px] py-1 text-lg phone:px-1 ">
         <div className="flex flex-row items-center gap-1 italic text-lg">
           <RiPhoneFill className="animate-spin" />
