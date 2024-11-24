@@ -5,7 +5,7 @@ import image3 from "../assets/images/p_laptop1.jpg";
 import image4 from "../assets/images/p_motor1.jpg";
 import image5 from "../assets/images/p_phone1.jpg";
 //productData: image,price, name,id
-const productData = [
+const productListData = [
   {
     id: 1,
     image: image1,
@@ -32,7 +32,7 @@ const productData = [
     price: 1000,
   },
 ];
-function Product() {
+function ProductList() {
   return (
     <div className="mt-[100px] cursor-pointer">
       <div>
@@ -41,7 +41,7 @@ function Product() {
         </h1>
 
         <div className=" animate-fadeIn flex flex-row flex-wrap justify-center gap-2 py-[10px] ">
-          {productData.map((product) => (
+          {productListData.map((product) => (
             <div
               key={product.id}
               className="w-fit h-fit my-[10px] bg-[#CADABF] rounded-md pt-5 shadow-md hover:shadow-lg hover:-translate-y-1 hover:scale-10 duration-200 linear"
@@ -65,4 +65,4 @@ function Product() {
   );
 }
 
-export default Product;
+export default ProductList;

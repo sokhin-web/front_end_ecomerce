@@ -1,5 +1,5 @@
 import Category from "../components/Category";
-import Product from "../components/Product";
+import Product from "../components/ProductList";
 import Advertise from "../components/Advertise";
 
 function HomePage() {

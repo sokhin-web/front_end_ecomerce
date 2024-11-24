@@ -80,7 +80,7 @@ function Navbar() {
               { value: "all_category", label: "All Category" },
               { value: "car", label: "Car" },
               { value: "motor", label: "Motor" },
-              { value: "bike", label: "Bike" },
+              { value: "/front_end_ecomerce/products/bike", label: "Bike" },
               { value: "laptop", label: "Laptop" },
               { value: "phone", label: "Phone" },
               { value: "disabled", label: "Disabled", disabled: true },

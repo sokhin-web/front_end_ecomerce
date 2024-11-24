@@ -3,8 +3,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Master_Web from "./master_web_layout/Master_Web";
 import Advertise from "./components/Advertise";
 import Category from "./components/Category";
-import Product from "./components/Product";
 import HomePage from "./master_web_layout/HomePage";
+import ProductList from "./components/ProductList";
+import Product_Bike from "./components/Product_Bike";
+import Product_Moto from "./components/Product_Moto";
+import Product_Car from "./components/Product_Car";
+import Product_Laptop from "./components/Product_Laptop";
+import Product_Phone from "./components/Product_Phone";
 
 export default function App() {
   return (
@@ -22,8 +27,28 @@ export default function App() {
               element={<Category />}
             ></Route>
             <Route
-              path="/front_end_ecomerce/product"
-              element={<Product />}
+              path="/front_end_ecomerce/productLIst/:category"
+              element={<ProductList />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product/bike"
+              element={<Product_Bike />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product/motor"
+              element={<Product_Moto />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product/car"
+              element={<Product_Car />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product/laptop"
+              element={<Product_Laptop />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product/phone"
+              element={<Product_Phone />}
             ></Route>
             <Route
               path="/*"
