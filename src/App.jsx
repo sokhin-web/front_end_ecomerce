@@ -30,26 +30,11 @@ export default function App() {
               path="/front_end_ecomerce/productLIst/:category"
               element={<ProductList />}
             ></Route>
-            <Route
-              path="/front_end_ecomerce/product/bike"
-              element={<Product_Bike />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product/motor"
-              element={<Product_Moto />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product/car"
-              element={<Product_Car />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product/laptop"
-              element={<Product_Laptop />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product/phone"
-              element={<Product_Phone />}
-            ></Route>
+            <Route path="product/bike" element={<Product_Bike />}></Route>
+            <Route path="product/motor" element={<Product_Moto />}></Route>
+            <Route path="product/car" element={<Product_Car />}></Route>
+            <Route path="product/laptop" element={<Product_Laptop />}></Route>
+            <Route path="product/phone" element={<Product_Phone />}></Route>
             <Route
               path="/*"
               element={
