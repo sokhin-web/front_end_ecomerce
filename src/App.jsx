@@ -10,6 +10,11 @@ import Product_Moto from "./components/Product_Moto";
 import Product_Car from "./components/Product_Car";
 import Product_Laptop from "./components/Product_Laptop";
 import Product_Phone from "./components/Product_Phone";
+import Product_phone_detail from "./components/Product_Detail/product_phone_detail";
+import Product_car_detail from "./components/Product_Detail/Product_car_detail";
+import Product_laptop_detail from "./components/Product_Detail/Product_laptop_detail";
+import Product_motor_detail from "./components/Product_Detail/Product_motor_detail";
+import Product_bike_detail from "./components/Product_Detail/Product_bike_detail";
 
 export default function App() {
   return (
@@ -49,6 +54,26 @@ export default function App() {
             <Route
               path="/front_end_ecomerce/product/phone"
               element={<Product_Phone />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product_detail/phone"
+              element={<Product_phone_detail />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product_detail/car"
+              element={<Product_car_detail />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product_detail/laptop"
+              element={<Product_laptop_detail />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product_detail/motor"
+              element={<Product_motor_detail />}
+            ></Route>
+            <Route
+              path="/front_end_ecomerce/product_detail/bike"
+              element={<Product_bike_detail />}
             ></Route>
             <Route
               path="/*"

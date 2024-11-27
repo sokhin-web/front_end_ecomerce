@@ -3,6 +3,7 @@ import image2 from "../assets/images/car1.jpg";
 import image3 from "../assets/images/bike1.jpg";
 import image4 from "../assets/images/laptop1.jpg";
 import image5 from "../assets/images/phone1.jpg";
+import { Link } from "react-router-dom";
 function Category() {
   const categoryData = [
     {
@@ -40,9 +41,9 @@ function Category() {
 
         <div className=" flex flex-row animate-fadeIn  flex-wrap justify-center gap-2 py-[10px]">
           {categoryData.map((category) => (
-            <a
+            <Link
               key={category.id}
-              href={`/front_end_ecomerce/product/${category.name}`}
+              to={`/front_end_ecomerce/product/${category.name}`}
             >
               <div className="w-fit h-fit my-[10px] bg-[#CADABF] rounded-md shadow-md hover:shadow-lg hover:-translate-y-1 hover:scale-10 duration-200 linear">
                 <div className="text-white text-center w-[100px] h-[100px] bg-white m-auto rounded-t-md">
@@ -54,7 +55,7 @@ function Category() {
                 </div>
                 <p className="text-center py-[5px]">{category.name}</p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

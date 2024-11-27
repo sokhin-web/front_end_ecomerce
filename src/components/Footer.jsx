@@ -14,15 +14,15 @@ function Footer() {
           <h1 className="text-xl font-bold">Follow Us</h1>
           <div>
             <div className="flex flex-row gap-2 text-[#E7E8D8]">
-              <RiFacebookBoxFill className="text-2xl text-blue-500 hover:opacity-70 duration-200 cursor-pointer" />
+              <RiFacebookBoxFill className="text-2xl text-orange-600 hover:opacity-70 duration-200 cursor-pointer" />
               <p>Facebook</p>
             </div>
             <div className="flex flex-row gap-2 text-[#E7E8D8]">
-              <RiYoutubeFill className="text-2xl text-red-500 hover:opacity-70 duration-200 cursor-pointer" />
+              <RiYoutubeFill className="text-2xl text-orange-600 hover:opacity-70 duration-200 cursor-pointer" />
               <p>Youtube</p>
             </div>
             <div className="flex flex-row gap-2 text-[#E7E8D8]">
-              <RiInstagramFill className="text-2xl text-purple-500 hover:opacity-70 duration-200 cursor-pointer" />
+              <RiInstagramFill className="text-2xl text-orange-600 hover:opacity-70 duration-200 cursor-pointer" />
               <p>Instagram</p>
             </div>
           </div>
@@ -31,11 +31,11 @@ function Footer() {
           <h1 className="text-xl font-bold">Contact Us</h1>
           <div>
             <div className="flex flex-row gap-2 text-[#E7E8D8]">
-              <RiTelegramFill className="text-2xl text-sky-600 hover:opacity-70 duration-200 cursor-pointer" />
+              <RiTelegramFill className="text-2xl text-orange-600 hover:opacity-70 duration-200 cursor-pointer" />
               <p>Telegram</p>
             </div>
             <div className="flex flex-row gap-2 text-[#E7E8D8]">
-              <RiPhoneFill className="text-2xl text-green-800 hover:opacity-70 duration-200 cursor-pointer" />
+              <RiPhoneFill className="text-2xl text-orange-600 hover:opacity-70 duration-200 cursor-pointer" />
               <p>010895335</p>
             </div>
           </div>
