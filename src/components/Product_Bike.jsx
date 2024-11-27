@@ -45,7 +45,10 @@ function Product_Bike() {
       </h1>
       <div className="flex flex-row flex-wrap justify-center  gap-2 py-[10px]">
         {bikeData.map((items) => (
-          <Link key={items.id} to={`/front_end_ecomerce/product_detail/bike`}>
+          <Link
+            key={items.id}
+            to={`/front_end_ecomerce/product_detail/bike/${items.id}`}
+          >
             <Product_Card image={items.image} price={items.price} />
           </Link>
         ))}

@@ -72,7 +72,7 @@ export default function App() {
               element={<Product_motor_detail />}
             ></Route>
             <Route
-              path="/front_end_ecomerce/product_detail/bike"
+              path="/front_end_ecomerce/product_detail/bike/:id"
               element={<Product_bike_detail />}
             ></Route>
             <Route
