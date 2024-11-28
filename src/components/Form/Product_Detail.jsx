@@ -44,10 +44,10 @@ function Product_Detail({
             </p>
           </div>
           <div className="flex flex-row justify-end gap-5">
-            <button className="bg-yellow-500 text-white font-bold py-1 px-2 rounded-md shadow-sm hover:bg-yellow-400 transition-all ease-linear duration-200">
+            <button className="bg-yellow-500 text-white  py-1 px-2 rounded-md shadow-sm hover:bg-yellow-400 transition-all ease-linear duration-200">
               Add to Card
             </button>
-            <button className="bg-green-500 text-white font-bold py-1 px-2 rounded-md shadow-sm hover:bg-green-400 transition-all ease-linear duration-200">
+            <button className="bg-green-500 text-white  py-1 px-2 rounded-md shadow-sm hover:bg-green-400 transition-all ease-linear duration-200">
               Buy Now
             </button>
           </div>

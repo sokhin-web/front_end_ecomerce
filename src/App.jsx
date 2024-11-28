@@ -55,26 +55,7 @@ export default function App() {
               path="/front_end_ecomerce/product/phone"
               element={<Product_Phone />}
             ></Route>
-            <Route
-              path="/front_end_ecomerce/product_detail/phone/:id"
-              element={<Product_phone_detail />}
-            ></Route>
-            <Route
-              path="//front_end_ecomerce/product_detail/car/:id"
-              element={<Product_car_detail />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product_detail/laptop/:id"
-              element={<Product_laptop_detail />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product_detail/motor/:id"
-              element={<Product_motor_detail />}
-            ></Route>
-            <Route
-              path="/front_end_ecomerce/product_detail/bike/:id"
-              element={<Product_bike_detail />}
-            ></Route>
+
             <Route
               path="/*"
               element={
@@ -82,6 +63,26 @@ export default function App() {
               }
             ></Route>
           </Route>
+          <Route
+            path="/front_end_ecomerce/product_detail/phone/:id"
+            element={<Product_phone_detail />}
+          ></Route>
+          <Route
+            path="//front_end_ecomerce/product_detail/car/:id"
+            element={<Product_car_detail />}
+          ></Route>
+          <Route
+            path="/front_end_ecomerce/product_detail/laptop/:id"
+            element={<Product_laptop_detail />}
+          ></Route>
+          <Route
+            path="/front_end_ecomerce/product_detail/motor/:id"
+            element={<Product_motor_detail />}
+          ></Route>
+          <Route
+            path="/front_end_ecomerce/product_detail/bike/:id"
+            element={<Product_bike_detail />}
+          ></Route>
         </Routes>
       </BrowserRouter>
     </div>
