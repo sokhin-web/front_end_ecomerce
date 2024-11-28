@@ -13,7 +13,10 @@ function Product_Moto() {
       </h1>
       <div className="flex flex-row flex-wrap justify-center  gap-2 py-[10px]">
         {motorData.map((items) => (
-          <Link key={items.id} to={`/front_end_ecomerce/product_detail/motor`}>
+          <Link
+            key={items.id}
+            to={`/front_end_ecomerce/product_detail/motor/${items.id}`}
+          >
             <Product_Card image={items.image} price={items.price} />
           </Link>
         ))}

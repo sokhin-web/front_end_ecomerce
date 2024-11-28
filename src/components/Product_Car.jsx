@@ -12,7 +12,10 @@ function Product_Car() {
       </h1>
       <div className="flex flex-row flex-wrap justify-center  gap-2 py-[10px]">
         {carData.map((items) => (
-          <Link key={items.id} to={`/front_end_ecomerce/product_detail/car`}>
+          <Link
+            key={items.id}
+            to={`/front_end_ecomerce/product_detail/car/${items.id}`}
+          >
             <Product_Card image={items.image} price={items.price} />
           </Link>
         ))}

@@ -56,19 +56,19 @@ export default function App() {
               element={<Product_Phone />}
             ></Route>
             <Route
-              path="/front_end_ecomerce/product_detail/phone"
+              path="/front_end_ecomerce/product_detail/phone/:id"
               element={<Product_phone_detail />}
             ></Route>
             <Route
-              path="/front_end_ecomerce/product_detail/car"
+              path="//front_end_ecomerce/product_detail/car/:id"
               element={<Product_car_detail />}
             ></Route>
             <Route
-              path="/front_end_ecomerce/product_detail/laptop"
+              path="/front_end_ecomerce/product_detail/laptop/:id"
               element={<Product_laptop_detail />}
             ></Route>
             <Route
-              path="/front_end_ecomerce/product_detail/motor"
+              path="/front_end_ecomerce/product_detail/motor/:id"
               element={<Product_motor_detail />}
             ></Route>
             <Route
