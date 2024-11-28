@@ -13,7 +13,7 @@ function Product_Detail({
   Qty,
 }) {
   return (
-    <div className="mt-[100px] top-48 cursor-pointer phone:mt-[150px]">
+    <div className="mt-[100px] top-48 cursor-pointer phone:mt-[50px]">
       <h1 className="font-bold text-xl text-[#675D50] text-center underline pb-[10px]">
         {title} Detail:
       </h1>
