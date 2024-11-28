@@ -33,7 +33,7 @@ function Category() {
     },
   ];
   return (
-    <div className="mt-[100px] ">
+    <div className="mt-[100px] phone:mt-[50px] ">
       <div>
         <h1 className="font-bold text-xl text-[#675D50] text-center underline pb-[10px]">
           Category

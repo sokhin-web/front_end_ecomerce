@@ -52,6 +52,16 @@ const ProductListData = [
         image:
           "https://i.pinimg.com/736x/23/f2/4d/23f24dabdb63c09da3a36798b114716e.jpg",
       },
+      {
+        id: 6,
+        model: "Civic",
+        brand: "Honda",
+        year: 2021,
+        price: 22999,
+        discount: 0.1,
+        image:
+          "https://i.pinimg.com/736x/81/bd/87/81bd87ca9eb1a818f1e68fa7af343edf.jpg",
+      },
     ],
   },
   {
@@ -106,6 +116,16 @@ const ProductListData = [
         discount: 0.12,
         image:
           "https://i.pinimg.com/736x/a8/6b/21/a86b21a46e58e814883e8502a615d6b8.jpg",
+      },
+      {
+        id: 6,
+        model: "OnePlus 11",
+        brand: "OnePlus",
+        year: 2022,
+        price: 59999,
+        discount: 0.1,
+        image:
+          "https://i.pinimg.com/736x/52/78/cd/5278cdbdc58569242eb0ed5461c18f7d.jpg",
       },
     ],
   },
@@ -162,6 +182,16 @@ const ProductListData = [
         image:
           "https://i.pinimg.com/736x/40/25/9b/40259b58253155bc0bcba2f48f2a98ca.jpg",
       },
+      {
+        id: 6,
+        model: "Trek Domane AL 2",
+        brand: "Trek",
+        year: 2023,
+        price: 599.99,
+        discount: 0.15,
+        image:
+          "https://i.pinimg.com/736x/d6/7e/4b/d67e4b93d742bb7443808f56e0814f72.jpg",
+      },
     ],
   },
   {
@@ -217,6 +247,16 @@ const ProductListData = [
         image:
           "https://i.pinimg.com/736x/62/9c/73/629c7374840a3aaa72ebae5ff0758cfb.jpg",
       },
+      {
+        id: 6,
+        model: "Acer Nitro",
+        brand: "Acer",
+        year: 2022,
+        price: 39999,
+        discount: 0.15,
+        image:
+          "https://i.pinimg.com/736x/a6/f8/07/a6f80737632f49e8b693f755dfbb7f54.jpg",
+      },
     ],
   },
   {
@@ -271,6 +311,16 @@ const ProductListData = [
         discount: 0.12,
         image:
           "https://i.pinimg.com/736x/ce/35/4d/ce354d5c479727576533659cdb355234.jpg",
+      },
+      {
+        id: 6,
+        model: "Ninja",
+        brand: "Kawasaki",
+        year: 2022,
+        price: 59999,
+        discount: 0.1,
+        image:
+          "https://i.pinimg.com/736x/42/96/fe/4296feb6fed68f13959961990dcf5310.jpg",
       },
     ],
   },

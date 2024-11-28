@@ -13,11 +13,11 @@ function Product_Detail({
   Qty,
 }) {
   return (
-    <div className="mt-[100px] top-48 cursor-pointer phone:mt-[200px]">
+    <div className="mt-[100px] top-48 cursor-pointer phone:mt-[150px]">
       <h1 className="font-bold text-xl text-[#675D50] text-center underline pb-[10px]">
         {title} Detail:
       </h1>
-      <div className="flex flex-row gap-10 justify-center items-center mt-10 phone:flex-col phone:gap-5  phone:pb-10">
+      <div className="flex flex-row gap-10 justify-center items-center mt-10 phone:flex-col phone:mt-2 phone:gap-2  phone:pb-10">
         <Product_Card image={image} price={price} />
         <div className="flex flex-col gap-5 items-start w-fit bg-[#CADABF] rounded-md shadow-sm p-5">
           <div className="text-md  flex flex-col gap-3 ">

@@ -39,11 +39,11 @@ function Product_Bike() {
     (item) => item.name === "bike"
   ).bikeData;
   return (
-    <div className="mt-[100px] cursor-pointer">
+    <div className="mt-[100px] cursor-pointer ">
       <h1 className="font-bold text-xl text-[#675D50] text-center underline pb-[10px]">
         Bike List:
       </h1>
-      <div className="flex flex-row flex-wrap justify-center  gap-2 py-[10px]">
+      <div className="flex flex-row flex-wrap justify-center  gap-2 py-[10px] ">
         {bikeData.map((items) => (
           <Link
             key={items.id}

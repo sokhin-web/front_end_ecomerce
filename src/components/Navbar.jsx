@@ -68,7 +68,7 @@ function Navbar() {
         </div>
       </div>
       <div className="flex flex-row justify-evenly px-[50px] py-2 items-center bg-[#CADABF] phone:px-1 phone:flex-wrap phone:justify-stretch phone:gap-1 tablet:flex-wrap  ">
-        <Link href="/">
+        <Link href="/front_end_ecomerce/">
           <div className="text-3xl font-bold text-[#675D50] cursor-pointer phone:text-lg ">
             LOGO
           </div>
